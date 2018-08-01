@@ -1,0 +1,155 @@
+@import './resources/styles/bootstrap4.css';
+
+body{
+    margin:0;
+}
+.bg-dark {
+    background-color: #b7c42b !important;
+}
+
+.btn {
+    color: white;
+}
+
+.postad {
+    border: 1px solid tomato;
+    padding: 7px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.navbar-expand-lg {
+    border-bottom: 1.2px solid black;
+    /* box-shadow: 2px 5px 15px lightgrey; */
+}
+
+.exxc {
+    border: 1px solid tomato !important;
+}
+
+.exxc:hover {
+    background-color: tomato;
+    color: white;
+    animation: cubic-bezier(0.55, 0.5, 0.675, 0.19);
+}
+
+.extab {
+    width: 40%;
+    margin: 15px auto;
+}
+.tdclassp{
+    padding:30px !important;
+    /* cursor:pointer; */
+}
+
+.footerFlex{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width:100%;
+    padding: 12px 0px 0px 0px !important;
+}
+
+.footerText{
+    display:flex;
+    width: 100%;
+}
+
+.copyrights{
+    display:flex;
+    width:15%;    
+}
+
+td>a{
+    color:black;
+    text-decoration: none !important;
+}
+td>span{
+    color:black;
+    text-decoration: none !important;
+}
+td>img{
+    color:black;
+    text-decoration: none;
+}
+
+@keyframes navbtnhover{
+    0%      {
+                background-color: tomato;
+                opacity:0;
+            }
+    25%     {
+                background-color: tomato;
+                opacity:0.25;
+            }
+    50%     {
+                background-color: tomato;
+                opacity:0.5;
+            }
+    100%    {
+                background-color: tomato;
+                opacity:1;
+            }
+}
+
+.navbar-toggler:hover{
+    background-color:tomato;
+    animation: navbtnhover .2s;
+}
+
+.navbar-footer {
+    padding: 0 16px;
+    position: fixed !important;
+    width: 100% !important;
+    bottom:0 !important;
+}
+
+.mmain{
+    width:65%;
+    margin:15px auto;
+    min-height: calc(100vh - 169px);
+
+}
+/* Creates a vertical nav starting at 768px (sm) */
+@media (min-width: 768px) {
+    .bootstrap-vertical-nav .collapse {
+        display: block;
+    }
+}
+.card{
+    display:inline-block;
+    margin:15px;
+    overflow:hidden;
+    margin-left:0;
+}
+.card-body{
+    min-width:286px;
+    max-width:286px;
+    min-height:178px;
+    max-height:178px;
+}
+.active{
+    font-weight:bolder !important;
+}
+ul.flex-column>li{
+    border-bottom:1px solid lightgrey;
+    width:60%;
+}
+.detbtn{
+    top:130px;
+    position:absolute;
+}
+.pricetitle{
+    top:100px;
+    position:absolute;
+}
+.mmain2{
+    padding: 25px 0px;
+    width:60%;
+    margin: 0px auto;
+    background-color:white;
+    min-height: calc(100vh - 140px);
+}
+#adss p{
+    display:inline;
+}
